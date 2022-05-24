@@ -17,7 +17,6 @@ $(window).load(function(){
     }
 
     function SiteEnteringPopup(countryList) {
-        countryList = countryList;
         if (null != localStorage.getItem('alreadyVisited')) {
             alreadyVisited = localStorage.getItem('alreadyVisited').split(',');
         }
